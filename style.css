@@ -1,0 +1,153 @@
+input[type="file"] {
+    font-size: 15px;
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #45a049; /* Muted green */
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #d68f1e; /* Slightly darker green */
+}
+.main {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid #333;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 100px;
+    position: relative;
+    background-color: #5f4bb0; /* Add a background to distinguish the section */
+    color: rgb(249, 247, 247); /* Subtle text color */
+    font-size: medium;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds depth */
+    background-image: url(https://play-lh.googleusercontent.com/JbYSifXLD71pQ8NB7tyaSsReFwfU3mVsqDBdpf__-B10RWdCHB_X2U5nfL4_7j9M0WE=w240-h480-rw);
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+input[type="submit"], button {
+    background-color: #0ecd1b; /* Professional Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #d68f1e;;
+}
+.personal {
+    color: #26173ef9; /* Brighter cyan for better readability */
+    text-align: left;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold; /* Adds emphasis */
+}
+.heading {
+    color: rgb(111, 110, 110);
+    font-size: 3rem; /* Larger size */
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#resumeOutput {
+    max-width: 800px;
+    background-color: #5f4bb0;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    color: rgb(6, 6, 6); /* Subtle text color */
+    font-size: medium;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds depth */
+    border: 3px solid #333;
+    color: #000000f9;
+    background-image: url(https://play-lh.googleusercontent.com/JbYSifXLD71pQ8NB7tyaSsReFwfU3mVsqDBdpf__-B10RWdCHB_X2U5nfL4_7j9M0WE=w240-h480-rw);
+    background-size: 25%;
+    background-position: top left;
+    background-repeat: no-repeat;
+
+}
+h1{
+    text-align: center;
+    font-size: x-large;
+
+}
+h2, p{
+    margin: 10px,0; 
+}
+h2{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+img{
+    max-width: 300px;
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+}
+/* Adjusting padding and font size for smaller screens */
+@media(max-width: 600px){
+    body{
+        margin: 10px;
+
+    }
+    form{
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    input, textArea{
+        font-size: 14px;
+        padding: 10px;
+
+    }
+    h2{
+        font-size: 1.5em;
+    }
+
+p{
+    font-size: 1em;
+}
+img{
+    max-width: 100px;
+}
+input[type="submit"]{
+    padding: auto;
+
+}
+#resumeOutput{
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: -3p;
+}
+
+}
